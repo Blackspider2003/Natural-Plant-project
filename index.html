@@ -13,11 +13,19 @@
                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
                 <!-- font awesome CDN -->
                 <script src="https://kit.fontawesome.com/8365d12049.js" crossorigin="anonymous"></script>
+
                 <style>
                                 .font{
                                                 font-family: "Sora", serif;
+                                }
+                                .font-2{
+                                    font-family: "Poppins", serif;
                                 }
                 </style>
 </head>
@@ -53,7 +61,61 @@
                  </section>
             </header>
             
-            <main></main>
+            <main>
+                <!-- service section -->
+                 <section class="container mx-auto space-y-10">
+                 <h2 class="font-semibold text-[#179800] text-4xl mt-10">Services</h2>
+                 <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-3">
+                    <!-- first service card -->
+                    <div class="bg-[#EFEBE3] rounded-lg text-center space-y-3 p-8">
+                        <img class="mx-auto bg-white rounded-full p-4" src="./c2-assets/service.png" alt="">
+                        <h4 class="font-semibold text-2xl text-[#111111]">24/7 Services</h4>
+                        <p class="font-light text-[#111111] text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div> 
+                    <!-- second service card -->
+                    <div class="bg-[#EFEBE3] rounded-lg text-center space-y-3 p-8">
+                        <img class="mx-auto bg-white rounded-full p-4" src="./c2-assets/delivery.png" alt="">
+                        <h4 class="font-semibold text-2xl text-[#111111]">24/7 Services</h4>
+                        <p class="font-light text-[#111111] text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div> 
+                    <!-- third service card -->
+                    <div class="bg-[#EFEBE3] rounded-lg text-center space-y-3 p-8">
+                        <img class="mx-auto bg-white rounded-full p-4" src="./c2-assets/healthy.png" alt="">
+                        <h4 class="font-semibold text-2xl text-[#111111]">24/7 Services</h4>
+                        <p class="font-light text-[#111111] text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div> 
+                 </div>
+                </section>
+                <!-- arrival offer section -->
+                 <section class="container mx-auto">
+                    <h2 class="text-[#179800] font-semibold text-4xl">Arrival & Offers</h2>
+                    <div class=" flex lg:flex-row flex-col lg:gap-4 gap-3">
+                        <!-- cards parent -->
+                        <div class="bg-[#115414] flex justify-between items-center space-y-4 rounded-lg lg:w-2/3">
+                        <!-- first card -->
+                            <div class="space-y-3">
+                                <img src="./c2-assets/dawat-logo.png" alt="">
+                                <button class="bg-[#63B76D] lg:px-6 lg:py-2 rounded-lg text-white font-2 lg:ml-5">Cook Exotic Dishes</button>
+                                <h3 class="font-2 text-white font-normal lg:text-3xl lg:p-5">UP to <span class="font-bold">20% OFF</span></h3>
+                            </div>
+                            <div>
+                                <img src="./c2-assets/dawat-mock-up.png" alt="">
+                            </div>
+                         </div>
+                         <div class="bg-[#102861] flex justify-between items-center space-y-4 rounded-lg lg:w-1/3">
+                         <!-- second Card -->
+                          <div class="space-y-3">
+                            <img src="./c2-assets/india-gate-logo.png" alt="">
+                            <button class="rounded-lg bg-[#2A4D97] text-white font-2 lg:px-4 lg:py-2 lg:ml-3">World’s No.1 Rice</button>
+                            <h3 class="text-white font-normal lg:text-2xl lg:p-3">UP to <span class="font-bold">40% OFF</span></h3>
+                          </div>
+                          <div>
+                            <img src="./c2-assets/india-gate-mock-up.png" alt="">
+                        </div>
+                        </div>
+                    </div>
+                 </section>
+            </main>
 
             <footer></footer>
 </body>
